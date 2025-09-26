@@ -272,33 +272,62 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
+            <div class="footer-grid">
+                <!-- Column 1: Brand and Social -->
+                <div class="footer-col">
                     <div class="footer-logo">
-                        <span class="logo-text">Shyam</span>
-                        <span class="logo-accent">Coder's</span>
+                        <a href="#home" class="nav-logo">
+                            <span class="logo-text">Shyam</span>
+                            <span class="logo-accent">Coder's</span>
+                        </a>
                     </div>
-                    <p>Creating digital experiences that matter</p>
+                    <p class="footer-tagline">Crafting premium digital experiences that drive results and inspire users.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path></svg></a>
+                        <a href="#" class="social-link" aria-label="Twitter" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578 9.3 9.3 0 0 1-2.958 1.13 4.66 4.66 0 0 0-7.938 4.25 13.229 13.229 0 0 1-9.602-4.868c-.337.578-.53 1.24-.53 1.943 0 1.616.823 3.043 2.072 3.878a4.63 4.63 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.738 4.566 4.644 4.644 0 0 1-2.104.08 4.655 4.655 0 0 0 4.344 3.234 9.348 9.348 0 0 1-5.786 1.995c-.376 0-.747-.022-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.455 9.455 0 0 0 2.323-2.41z"></path></svg></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zm1.77-17.433H3.567v14h3.549V9z"></path></svg></a>
+                        <a href="#" class="social-link" aria-label="GitHub" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"></path></svg></a>
+                    </div>
                 </div>
-                <div class="footer-social">
-                    <a href="#" class="social-link" target="_blank">
-                        <span class="social-icon">📘</span>
-                    </a>
-                    <a href="#" class="social-link" target="_blank">
-                        <span class="social-icon">🐦</span>
-                    </a>
-                    <a href="#" class="social-link" target="_blank">
-                        <span class="social-icon">💼</span>
-                    </a>
-                    <a href="#" class="social-link" target="_blank">
-                        <span class="social-icon">📷</span>
-                    </a>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Our Services -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">E-commerce</a></li>
+                        <li><a href="#services">SEO Optimization</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Get in Touch</h4>
+                    <ul class="footer-links contact-info-footer">
+                        <li><a href="mailto:hello@elitewebstudio.com">hello@elitewebstudio.com</a></li>
+                        <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                    </ul>
+                     <a href="#contact" class="btn btn--primary" style="margin-top: var(--space-16);">Contact Us</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Shyam Coder's. All rights reserved.</p>
+                <p>&copy; <span id="current-year">2025</span> Shyam Coder's. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
