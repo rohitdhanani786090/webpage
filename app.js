@@ -199,6 +199,9 @@ function initializeApp() {
         initializeModal();
         initializeSmoothScroll();
         
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
         // Hide loading screen
         setTimeout(hideLoadingScreen, 1000);
     }, 500);
